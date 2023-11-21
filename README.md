@@ -5,12 +5,12 @@ Minishell is a self written shell, similar to bash with limited functions.
 It has a prompt, a history, can pipe and redirect. 
 It covers some self coded builtins and can access the bash builtins as well.
 
-Minishell is a group project from the 42 Curriculum. 
+Minishell is a group project from the 42 Curriculum in collaboration with Yoonseon Lee, Josefina Husso, Meri Eskelinen, Rosa Mäkinen and Vu Kieu Phong Vu.
 
 ## How to run the PinkShell
 
 - git clone the github repository in a chosen directory
-- find your way to the directory
+- cd minishell
 - make
 - ./minishell
 
