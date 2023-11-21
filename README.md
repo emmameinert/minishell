@@ -18,13 +18,21 @@ Minishell is a group project from the 42 Curriculum.
 
 ## The implementations
 
-- The builtins:
-◦ echo with option -n
-◦ cd with only a relative or absolute path ◦ pwd with no options
-◦ export with no options
-◦ unset with no options
-◦ env with no options or arguments
-◦ exit with no options
+- The builtins (without options):
+  
+◦ echo
+
+◦ cd
+
+◦ pwd 
+
+◦ export 
+
+◦ unset 
+
+◦ env 
+
+◦ exit
 
 - it handles arguments with ', '', and $ as an expansion
 - <  redirects input
