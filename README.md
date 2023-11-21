@@ -1,4 +1,4 @@
-##  minishell - a Unix project
+# minishell - a Unix project
 
 Minishell is a self written shell, similar to bash with limited functions. 
 
@@ -18,6 +18,18 @@ Minishell is a group project from the 42 Curriculum in collaboration with Yoonse
 
 ## The implementations
 
+- it handles arguments with ', '', and $ as an expansion
+  
+- <  redirects input
+  
+- << Heredoc reads the input until a given delimiter
+  
+- " > " redirects output
+
+- ">>" redirects output in append mode
+
+- handles | pipes and some ctrl functionality like ctrl-C and ctrl-D
+  
 # The builtins (without options):
   
 ◦ echo
@@ -34,14 +46,3 @@ Minishell is a group project from the 42 Curriculum in collaboration with Yoonse
 
 ◦ exit
 
-- it handles arguments with ', '', and $ as an expansion
-  
-- <  redirects input
-  
-- << Heredoc reads the input until a given delimiter
-  
-- " > " redirects output
-
-- ">>" redirects output in append mode
-
-- handles | pipes and some ctrl functionality like ctrl-C and ctrl-D
