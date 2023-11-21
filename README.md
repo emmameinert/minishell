@@ -1,6 +1,6 @@
 # minishell - a Unix project
 
-Minishell is a self written shell, similar to bash with limited functions. 
+Minishell is a self written shell in C, similar to bash with limited functions. 
 
 It has a prompt, a history, can pipe and redirect. 
 It covers some self coded builtins and can access the bash builtins as well.
