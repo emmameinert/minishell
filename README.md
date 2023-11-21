@@ -30,7 +30,7 @@ Minishell is a group project from the 42 Curriculum in collaboration with Yoonse
 
 - handles | pipes and some ctrl functionality like ctrl-C and ctrl-D
   
-# The builtins (without options):
+## The builtins (without options):
   
 ◦ echo
 
