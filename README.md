@@ -40,8 +40,8 @@ Minishell is a group project from the 42 Curriculum.
   
 - << Heredoc reads the input until a given delimiter
   
-- > redirects output
+- " > " redirects output
 
-- >> redirects output in append mode
+- ">>" redirects output in append mode
 
 - handles | pipes and some ctrl functionality like ctrl-C and ctrl-D
