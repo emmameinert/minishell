@@ -18,7 +18,7 @@ Minishell is a group project from the 42 Curriculum.
 
 ## The implementations
 
-- The builtins (without options):
+# The builtins (without options):
   
 ◦ echo
 
@@ -35,9 +35,13 @@ Minishell is a group project from the 42 Curriculum.
 ◦ exit
 
 - it handles arguments with ', '', and $ as an expansion
+  
 - <  redirects input
+  
 - << Heredoc reads the input until a given delimiter
+  
 - > redirects output
+
 - >> redirects output in append mode
 
 - handles | pipes and some ctrl functionality like ctrl-C and ctrl-D
